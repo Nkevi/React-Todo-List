@@ -4,7 +4,11 @@
   padding-left: 3rem;
   display: flex;
   flex-direction: column;
-  justify-items: left;
+}
+
+.todo-list ul li {
+  list-style: none;
+  text-align: start;
 }
 
 .title {
@@ -13,4 +17,5 @@
   text-align: left;
 }
 
-
+.add-todo {
+}

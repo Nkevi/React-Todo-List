@@ -22,7 +22,7 @@ export default function Todos({
   return (
     <>
       <div className="todo-list">
-        <h1 className="title">Test</h1>
+        <h1 className="title">{category}</h1>
         <ul>
           {todos.map((todo: string, index: number) => (
             <li key={index}>{todo}</li>
